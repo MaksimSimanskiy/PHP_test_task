@@ -1,5 +1,4 @@
 <?php
-error_reporting(0);
 class Result
 {
     // подключение к базе данных и таблице
