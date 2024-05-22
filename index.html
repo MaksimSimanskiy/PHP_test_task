@@ -55,7 +55,7 @@
         $("#results").empty();
         $.ajax({
           type: 'POST',
-          url: '/test/test2/read.php',
+          url: 'search.php',
           data: { searchData: searchData },
           success: function(response) {
            console.log(response);
